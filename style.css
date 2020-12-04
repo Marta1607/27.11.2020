@@ -2,11 +2,17 @@ body{
     background-color: rgb(19, 18, 18);
 }
 .nav {
-    background-color: rgb(199, 170, 39);
+    background-color: rgba(255, 208, 0, 0.432);
     position: fixed;
     height: 50px;
     margin-top: 10px;
     width: 100px;
+    opacity: 1;
+    border:1px solid gold;
+    text-decoration: none;
+    border-radius: 14%;
+    text-align: center;
+    color: darkgray;
 }
 .tekst {
     color: darkgray;
