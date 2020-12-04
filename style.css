@@ -6,6 +6,7 @@ body{
     position: fixed;
     height: 50px;
     margin-top: 10px;
+    width: 100px;
 }
 .tekst {
     color: darkgray;
@@ -17,7 +18,10 @@ body{
     border-bottom: 1px solid gold;
 }
 .logorunterra{
-    margin-left: 35%;
+    margin-left: 37%;
+}
+.runterra1 {
+    border-bottom: 1px solid gold;
 }
 .img2 {
     width: 50%;
@@ -71,5 +75,21 @@ body{
     padding-top: 70px;
     font-size: 30px;
     text-align: center;
+    padding-bottom: 0%;
   }
-  
+  .mapa {
+      width: 100%;
+      height: 100%;
+  }
+  .imgtft {
+      padding-left: 200px;
+  }
+  .imgwr {
+      width: 75%;
+      height: 75%;
+  }
+  .imge-s {
+      width: 25%;
+      height: 75%;
+      padding-top:0;
+  }
