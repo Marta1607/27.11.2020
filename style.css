@@ -58,7 +58,7 @@ body{
     padding: 10px;
   }
   .grid-item {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     text-align: center;
   }
@@ -73,7 +73,7 @@ body{
   }
   .grid-container2 {
     display: grid;
-    /* grid-template-columns: auto auto; */
+    grid-template-columns: auto auto;
     grid-row: auto;
     padding-top: 10px;
     text-align: center;
@@ -108,11 +108,6 @@ body{
   .innagra {
       text-decoration: none;
   }
-  .innagra1 {
-    padding-left: 10%;
-    padding-right: 10%;
-    text-decoration: none;
-  }
   .victory1 {
       width: 75%;
       height: 75%;
@@ -120,4 +115,10 @@ body{
   .logolol2 {
     width: 75%;
     height: 75%;
+  }
+  .img-hero:hover{
+      transform: scale(1.2);
+    }
+.img-hero1 {
+    padding-top: 50px;
   }
