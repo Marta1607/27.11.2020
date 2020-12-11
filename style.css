@@ -33,6 +33,7 @@ body{
 .runterra1 {
     border-bottom: 1px solid gold;
 }
+
 .img2 {
     width: 50%;
 }
@@ -72,9 +73,7 @@ body{
   }
   .grid-container2 {
     display: grid;
-    grid-template-columns: auto auto;
-    padding-left: 50px;
-    padding-right: 50px;
+    grid-template-columns: 50% 50% ;
     padding-top: 10px;
     text-align: center;
   }
@@ -93,21 +92,31 @@ body{
       width: 100%;
       height: 100%;
   }
-  .imgtft {
-      padding-left: 200px;
-  }
   .imgwr {
       width: 50%;
       height: 75%;
   }
-  .imge-s {
+  /* .imge-s {
       width: 25%;
       height: 75%;
       padding-top:0;
-  }
+  } */
   .back {
       background-image: url("./Fat_Poro.jpg");
   }
   .innagra {
       text-decoration: none;
+  }
+  .innagra1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: none;
+  }
+  .victory1 {
+      width: 75%;
+      height: 75%;
+  }
+  .logolol2 {
+    width: 75%;
+    height: 75%;
   }
